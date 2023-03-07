@@ -1,0 +1,151 @@
+.about_titulo {
+  font-size: var(--font-titulo);
+  font-weight: var(--font-weigth);
+  color: var(--cor-azul);
+  font-family: var(--font-family);
+  text-align: center;
+  margin-bottom: 1.6rem;
+  position: relative;
+}
+
+.about_borda {
+  border-bottom: 4px solid var(--cor-azul);
+  text-align: center;
+  width: 100px;
+}
+
+.about_me {
+  display: flex;
+  padding: 0 10rem;
+  justify-content: space-around;
+}
+
+.about_descricao {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 700px;
+}
+
+
+.about_texto {
+  font-size: var(--font-text);
+  font-family: var(--font-family);
+  line-height: 1.6rem;
+  padding-top: 1rem;
+}
+
+
+.about_subtitulo {
+  font-size: var(--font-titulo);
+  font-weight: var(--font-semi);
+  color: var(--cor-preto);
+  font-family: var(--font-family);
+
+}
+
+.about_imagem {
+  width: 400px;
+}
+
+.about_foto {
+  border-radius: 16px;
+}
+
+.about_botao{
+  margin-top: 2rem;
+  width: 200px;
+  padding: 12px 0px;
+  border-radius: 12px;
+  background:var(--cor-azul);
+  color:var(--cor-branco);
+  border: none;
+  font-size: var(--font-subtitulo);
+  font-weight: var(--font-weigth);
+  font-family: var(--font-family);
+  text-align: center;
+}
+
+.bx-down-arrow-alt {
+  color: var(--cor-branco);
+  width: 16px;
+
+}
+
+@media only screen and (min-width: 1200px) {
+  .about_foto {
+    margin-left: 20px;
+  }
+}
+
+@media only screen and (min-width: 769px) {
+  .about_me {
+    display: flex;
+    padding: 0 2rem;
+  }  
+
+  .about_descricao {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 500px;
+  }
+
+  .about_texto {
+    font-size: var(--font-text);
+    font-family: var(--font-family);
+    line-height: 1.5rem;
+    padding-top: 1rem;
+  }
+
+  .about_foto {
+    border-radius: 18px;
+    margin-top: 80px;
+  }
+}
+
+@media only screen and (min-width: 601px) and (max-width: 768px) {
+  .about_me {
+    display: flex;
+    padding: 0 2rem;
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+
+  .about_subtitulo, .about_foto {
+    margin-top: 2rem;
+  }
+
+  .about_descricao {
+    width: 500px;
+    text-align: center;
+    align-items: center;
+  }
+
+}
+
+@media only screen and (max-width: 600px) {
+  .about_me {
+    display: flex;
+    padding: 0 2rem;
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+
+  .about_subtitulo, .about_foto {
+    margin-top: 2rem;
+  }
+
+  .about_descricao {
+    width: 300px;
+    text-align: center;
+    align-items: center;
+  }
+
+  .about_foto {
+    border-radius: 18px;
+    /* margin-top: 80px; */
+    width: 400px;
+  }
+}
+

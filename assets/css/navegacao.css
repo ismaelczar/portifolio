@@ -1,0 +1,121 @@
+.navegacao {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: space-around;
+  width: 100vw;
+  height: 70px;
+  padding: 0 4.6rem;
+  position: fixed;
+  background-color: #f8f8f8;
+  z-index: 1;
+}
+
+.navegacao_titulo {
+  width: 100px;
+  font-size: var(--font-titulo);
+  font-family: var(--font-family);
+  color: var(--cor-secundaria);
+  font-weight: var(--font-weigth);
+}
+
+.navegacao_titulo--ponto {
+  color: var(--cor-azul);
+  padding-left: 0.232rem;
+  font-size: 3rem;
+}
+
+.navegacao_descricao {
+  display: flex;
+  width: 450px;
+
+}
+
+.active::after {
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 0.18rem;
+  left: 0;
+  top: 2rem;
+  background-color: var(--cor-azul);
+  transform: 3s;
+}
+
+.nav_descricao--link {
+  position: relative;
+
+}
+
+.nav_descricao--link:hover {
+  color: var(--cor-azul);
+  position: relative;
+}
+
+.nav_descricao--link:hover::after {
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 0.18rem;
+  left: 0;
+  top: 2rem;
+  background-color: var(--cor-azul);
+
+}
+
+.bx:hover {
+  color: var(--cor-azul);
+  transition: 0.5s;
+}
+
+
+a,
+ul {
+  text-decoration: none;
+
+}
+
+.nav_descricao--link {
+  font-family: var(--font-family);
+  font-size: var(--font-subtitulo);
+  color: var(--cor-secundaria);
+  font-weight: var(--font-semi);
+  transition: 3s;
+  transform: 2s;
+}
+
+
+.bxl-discord,
+.bxl-instagram,
+.bxl-linkedin-square,
+.bxl-github {
+  font-size: var(--font-titulo);
+  color: var(--cor-preto);
+  font-family: var(--font-family);
+}
+
+@media only screen and (min-width: 769px) {
+  .navegacao {
+    padding: 0;
+  }
+}
+
+@media only screen and (min-width: 601px) and (max-width: 768px) {
+  .navegacao {
+    padding: 0;
+  }
+
+  .navegacao_descricao {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .navegacao {
+    padding: 0;
+  }
+
+  .navegacao_descricao {
+    display: none;
+  }
+}

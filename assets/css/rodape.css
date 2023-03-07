@@ -1,0 +1,9 @@
+
+.rodape_texto {
+  background-color: var(--cor-azul);
+  font-size: var( --font-subtitulo);
+  color: var(--cor-branco);
+  font-family: var(--font-family);
+  text-align: center;
+  padding: 8px 0;
+}
