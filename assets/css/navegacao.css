@@ -94,27 +94,7 @@ ul {
   font-family: var(--font-family);
 }
 
-@media only screen and (min-width: 769px) {
-  .navegacao {
-    padding: 0;
-  }
-}
-
-@media only screen and (min-width: 601px) and (max-width: 768px) {
-  .navegacao {
-    padding: 0;
-  }
-
-  .navegacao_descricao {
-    display: none;
-  }
-}
-
-@media only screen and (max-width: 600px) {
-  .navegacao {
-    padding: 0;
-  }
-
+@media screen and (max-width:900px) {
   .navegacao_descricao {
     display: none;
   }

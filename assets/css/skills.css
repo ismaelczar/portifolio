@@ -97,110 +97,69 @@
   border-radius: .5rem;
 }
 
-@media only screen and (min-width: 1200px) {
-  .skills {
-    padding: 200px 16px 0 16px;
-  }
-
-  .skill_image {
-    margin-left: 26px;
-  }
+.skill_image {
+  margin-left: 20px;
 }
 
-@media only screen and (min-width: 769px) {
+
+@media screen and (max-width:1200px) {
   .skills {
-    padding: 200px 10px 0 10px;
+    padding: 200px 50px 0 50px;
+  
   }
-
+  
   .skills_texto {
-    width: calc(100% - 2%);
-    text-align: center;
+    width: auto;
   }
 
+
+}
+
+@media screen and (max-width:1155px) {
   .skills_subtitulo {
+    margin-top: 2rem;
+  }
+  
+  .skills_texto, .skills_subtitulo {
     text-align: center;
   }
-
-  .skills_container {
+  
+  .skills_container, .skills_tabs {
+    display: flex;
     flex-direction: column;
+    align-items: center;
     text-align: center;
   }
 
   .skills_tabs {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .skill_image {
-    margin-top: 40px;
-    text-align: center;
+    margin-bottom: 3rem;
   }
 }
 
-@media only screen and (min-width: 601px) and (max-width: 768px) {
+@media screen and (max-width:600px) {
+  .skills_stack {
+    width: 350px;
+  }
+
+  .html-pr,.css-pr {
+    padding-left: 10rem;
+
+}
+.js-pr  {
+  padding-right: 10rem
+}
+
+.skill_image {
+  width: 350px;
+
+}
+}
+
+@media screen and (max-width:420px) {
+  .skill_image {
+    width: 330px;
+  }
   .skills {
-    padding: 200px 5px 0 5px;
-    display: flex;
-    flex-direction: column;
-  }
-  .skills_texto {
-    width: calc(100% - 2%);
-    text-align: center;
-  }
-
-.skills_stack {
-  width: 550px;
-  margin: 0 0 20px 20px;
-}
-
-  .skills_container {
-    flex-direction: column;
-    text-align: center;
-    align-items: center;
-  }
-
-  .skill_image {
-    margin-top: 40px;
-    text-align: center;
+    padding: 200px 20px 0 20px;
   }
 }
-
-@media only screen and (max-width: 600px) {
-  .skills {
-    padding: 200px 5px 0 5px;
-    display: flex;
-    flex-direction: column;
-  }
-  .skills_texto {
-    width: calc(100% - 2%);
-    text-align: center;
-  }
-
-.skills_stack {
-  width: 390px;
-  /* margin: 0 0 20px 20px; */
-}
-
-  .skills_container {
-    flex-direction: column;
-    text-align: center;
-    align-items: center;
-  }
-
-  .skill_image {
-    margin-top: 40px;
-    text-align: center;
-  }
-
-  .skills_subtitulo {
-    font-size: 2rem;
-    text-align: center;
-  }
-
-  .skill_image {
-    width: 400px;
-  }
-}
-
-

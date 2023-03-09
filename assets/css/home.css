@@ -24,8 +24,8 @@
   width: 200px;
   padding: 12px 0px;
   border-radius: 12px;
-  background:var(--cor-azul);
-  color:var(--cor-branco);
+  background: var(--cor-azul);
+  color: var(--cor-branco);
   border: none;
   font-size: var(--font-subtitulo);
   font-weight: var(--font-weigth);
@@ -46,89 +46,83 @@
 
 .home_foto {
   width: 500px;
-  
+
 }
 
 .button_link-1 {
   color: var(--cor-branco);
 }
 
-@media only screen and (min-width: 769px) {
+@media screen and (max-width:900px) {
   .home {
-    padding: 10rem 2rem 4rem 3rem;
-
+    padding: 14rem 3rem 4rem 3rem;
   }
-  
+
+
   .home_titulo {
-    font-size: 3.4rem;
-    line-height: 5rem;
-  }
-
-  .home_foto {
-    width: 700px;
-    
+    line-height: 4.5rem;
   }
 }
 
-@media only screen and (min-width: 601px) and (max-width: 768px) {
+@media screen and (max-width: 769px) {
   .home {
-    padding: 14rem 1rem 4rem 1rem;
     display: flex;
+    padding: 8rem 3rem 4rem 3rem;
     flex-direction: column-reverse;
-    justify-content: space-between;
-    align-items: center;
-    
-  }
-
-  .home_titulo {
-    font-size: 3.2rem;
-    font-family: var(--font-family);
-    line-height: 5rem;
-    font-weight: var(--font-weigth);
-    text-align: center;
-  }
-
-  .home_me {
-    display: flex;
-    flex-direction: column;
     align-items: center;
   }
 
   .home_foto {
     width: 400px;
-    margin-bottom: 2rem;
-    
+    text-align: center;
+  
+  }
+
+  .home_marcas {
+    display: none;
+  }
+
+  .home_me, .home_marcas {
+    text-align: center;
+    align-items: center;
+    margin-top: 10px;
   }
 }
 
-
-@media only screen and (max-width: 600px) {
-  .home {
-    padding: 10rem 1rem 4rem 1rem;
-    display: flex;
-    flex-direction: column-reverse;
-    justify-content: space-between;
-    align-items: center;
-    
-  }
-
+@media screen and (max-width:698px) {
   .home_titulo {
-    font-size: 2.1rem;
-    font-family: var(--font-family);
-    line-height: 3rem;
-    /* font-weight: var(--font-weigth); */
-    text-align: center;
-  }
-
-  .home_me {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    font-size: 3.5rem;
   }
 
   .home_foto {
-    width: 300px;
-    margin-bottom: 1rem;
-    
+    width: 350px;
+    text-align: center;
+  
   }
+}
+
+@media screen and (max-width:600px) {
+  .home_titulo {
+    font-size: 3.2rem;
+  }
+}
+
+@media screen and (max-width:550px) {
+  .home_titulo {
+    font-size: 2.5rem;
+    line-height: 3.5rem;
+  }
+  .home_foto {
+    width: 300px;
+    text-align: center;
+  
+  }
+}
+
+@media screen and (max-width:430px) {
+  .home_titulo {
+    font-size: 2rem;
+    line-height: 2.5rem;
+  }
+
 }
