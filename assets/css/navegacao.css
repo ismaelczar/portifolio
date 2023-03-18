@@ -88,9 +88,9 @@ ul {
 .bxl-discord,
 .bxl-instagram,
 .bxl-linkedin-square,
-.bxl-github {
+.bx-envelope{
   font-size: var(--font-titulo);
-  color: var(--cor-azul);
+  color: var(--cor-preto);
   font-family: var(--font-family);
 }
 

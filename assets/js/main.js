@@ -24,7 +24,8 @@ sr.reveal('.home_titulo', {})
 sr.reveal('.home_botao', {})
 sr.reveal('home_marcas', {})
 sr.reveal('.nav_marcas--items', {})
-sr.reveal('.home_foto', {})
+sr.reveal('.home-img', {})
+
 
 /*===== SCROLL ABOUR =====*/
 sr.reveal('.about_titulo', {})
