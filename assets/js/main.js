@@ -7,19 +7,9 @@ function ativa() {
   this.classList.add('active')
 };
 
-for (i = 0; i < navAtiva.length; i++) {
-  navAtiva[i].addEventListener("click", ativa)
-}
-
-function refresh () {
-  windos.location.reload()
-}
-
-// if (navAtiva[0] === ) {
-
-// }
-
-
+navAtiva.forEach(elemento => {
+  elemento.addEventListener('click', ativa)
+})
 
 /*=====  ANIMAÇÃO SCROLL =====*/
 const sr = ScrollReveal({

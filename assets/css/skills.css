@@ -191,4 +191,9 @@
   .skills {
     padding: 200px 20px 0 20px;
   }
+
+  .skill_image {
+    margin:0;
+  }
+  
 }

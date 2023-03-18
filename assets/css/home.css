@@ -123,6 +123,11 @@
   .home_titulo {
     font-size: 2rem;
     line-height: 2.5rem;
+    width: 340px;
+  }
+
+  .home_me {
+    width: auto;
   }
 
 }

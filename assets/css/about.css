@@ -126,5 +126,10 @@
   
   .about_foto {
     width: 350px;
+    margin: 0;
+  }
+
+  .about_imagem {
+    width: 340px;
   }
 }
