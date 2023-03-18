@@ -6,3 +6,4 @@ Também incluí uma seção de contato, onde os visitantes podem me enviar uma m
 Eu usei HTML e CSS para estruturar e estilizar o site, e JavaScript para adicionar interatividade, como menus responsivos e animações sutis.
 
 ![preview img](/preview.png)
+## https://ismaelczar.github.io/portifolio/
