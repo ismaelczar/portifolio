@@ -1,20 +1,32 @@
 .home {
   padding: 12rem 4rem 14rem 4rem;
   display: flex;
-  justify-content: space-evenly;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 .home_me {
   width: 700px;
+  text-align: center;
 }
 
 .home-img {
-  width: 500px;
+  width: 600px;
 
 }
 
-.home__blob {
-  fill: #87c4fd;
+.minhaFoto {
+  width: 600px;
+  box-shadow:0 1px 15px var(--cor-azul);
+  border-radius: 100%;
+}
+
+.home_topo {
+  font-family: var(--font-family);
+  font-weight: 100;
+  font-size: 4rem;
+  margin-top: 8rem;
 }
 
 
@@ -44,16 +56,16 @@
 }
 
 .home_botao:hover {
-  background: var(--cor-azul-escuro);
-  color: #ffffff;
-  transition: 1s;
-  box-shadow: #000;
+  background-color:#00b4c1d5;
+  transition: 2s;
 }
 
 .home_marcas {
   width: 150px;
   display: flex;
-  margin-top: 100px;
+  margin: 100px auto;
+  justify-content: center;
+  align-items: center;
 }
 
 .home_foto {
@@ -62,7 +74,7 @@
 }
 
 .button_link-1 {
-  color: var(--cor-branco);
+  color: var(--cor-preto);
 }
 
 @media screen and (max-width:900px) {

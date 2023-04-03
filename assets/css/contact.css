@@ -39,27 +39,21 @@
   width: 24px;
   padding-left: 8px;
   color: var(--cor-preto);
-}
-
-.contato_b:hover > i {
-  color: var(--cor-branco);
+  
 }
 
 .contato_b > a {
   color: var(--cor-preto);
 }
 
-.contato_b:hover > a {
-  color: var(--cor-branco);
-}
 
 .contato_botao {
   margin-top: 2rem;
   width: 200px;
   padding: 12px 0px;
   border-radius: 12px;
-  background:var(--cor-branco);
-  color:var(--cor-azul);
+  background:var(--cor-azul);
+  color:var(--cor-preto);
   border: 0.1rem solid var(--cor-azul);
   font-size: var(--font-subtitulo);
   font-weight: var(--font-weigth);
@@ -70,8 +64,9 @@
 }
 
 .contato_botao:hover {
-  background: var(--cor-azul);
-  transition: 1.5s;
+  background-color:#00b4c1d5;
+  transition: 1s;
+  color: var(--cor-branco);
 }
 
 .contato_botao-link {

@@ -7,8 +7,9 @@
   height: 70px;
   padding: 0 4.6rem;
   position: fixed;
-  background-color: #f8f8f8;
+  background-color: #0f1116;
   z-index: 1;
+  color: #ffffff;
 }
 
 .navegacao_titulo {
@@ -27,8 +28,16 @@
 
 .navegacao_descricao {
   display: flex;
-  width: 450px;
+  width: 500px;
 
+}
+
+.conhecimentos{
+  padding: 0 16px;
+}
+
+.projec {
+  padding-right: 16px;
 }
 
 .active::after {
@@ -64,7 +73,7 @@
 }
 
 .bx:hover {
-  color: var(--cor-azul);
+  color:#00b4c1d5;
   transition: 0.5s;
 }
 
@@ -80,8 +89,8 @@ ul {
   font-size: var(--font-subtitulo);
   color: var(--cor-secundaria);
   font-weight: var(--font-semi);
-  transition: 3s;
-  transform: 2s;
+  /* transition: 3s;
+  transform: 2s; */
 }
 
 
@@ -90,7 +99,7 @@ ul {
 .bxl-linkedin-square,
 .bx-envelope{
   font-size: var(--font-titulo);
-  color: var(--cor-preto);
+  color: var(--cor-azul);
   font-family: var(--font-family);
 }
 

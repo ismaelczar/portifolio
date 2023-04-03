@@ -1,5 +1,6 @@
 .projetos {
   padding: 16em 0 16rem 0;
+  /* height: auto; */
 }
 
 .projetos_container {
@@ -44,6 +45,20 @@
   width: 500px;
   
 }
+
+
+
+.skills_botao {
+  margin-top: 2rem;
+  width: 200px;
+  padding: 12px 0px;
+  border-radius: 12px;
+  background: var(--cor-azul);
+  color: var(--cor-branco);
+  border: none;
+  font-size: var(--font-subtitulo);
+  font-weight: var(--font-weigth);
+  margin: 0 auto;}
 
 @media screen and (max-width:1300px) {
   .projetos_container {

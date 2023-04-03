@@ -20,7 +20,7 @@
 .skills_subtitulo {
   font-size: var(--font-titulo);
   font-weight: var(--font-semi);
-  color: var(--cor-preto);
+  color: var(--cor-azul);
   font-family: var(--font-family);
   padding-left: 1.6rem;
 
@@ -37,7 +37,7 @@
 
 .skills_stack {
   display: flex;
-  background-color: var(--cor-branco-dark);
+  background-color: var(--cor-preto);
   position: relative;
   padding: 0.5rem 0;
   box-shadow: 0 4px 25px rgba(14, 36, 49, 0.15);
@@ -69,7 +69,7 @@
 
 .stack {
   font-size: var(--font-semi);
-  color: var(--cor-preto);
+  color: var(--cor-branco);
   font-family: var(--font-family);
   font-weight: var(--font-semi);
 }
@@ -83,7 +83,7 @@
 }
 
 .js-pr {
-  padding-right: 20rem;
+  padding-right:0;
 }
 
 .git-pr {
@@ -108,7 +108,7 @@
 }
 
 .stack_js {
-  width: 35%;
+  width: 60%;
 }
 
 .stack_git {
@@ -116,7 +116,7 @@
 }
 
 .skill_image {
-  width: 500px;
+  width: 700px;
 
   border-radius: .5rem;
 }

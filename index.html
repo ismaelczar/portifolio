@@ -26,10 +26,12 @@
             <ul class="navegacao_descricao">
                 <li class="nav_descricao--items"><a href="#home" class="nav_descricao--link link_home active">Home</a>
                 </li>
-                <li class="nav_descricao--items"><a href="#about" class="nav_descricao--link">About</a></li>
-                <li class="nav_descricao--items"><a href="#skills" class="nav_descricao--link">Skills</a></li>
-                <li class="nav_descricao--items"><a href="#projects" class="nav_descricao--link">Projects</a></li>
-                <li class="nav_descricao--items"><a href="#contact" class="nav_descricao--link">Contact</a></li>
+                <li class="nav_descricao--items"><a href="#about" class="nav_descricao--link">Sobre</a></li>
+                <li class="nav_descricao--items conhecimentos"><a href="#skills"
+                        class="nav_descricao--link">Conhecimentos</a></li>
+                <li class="nav_descricao--items projec"><a href="#projects" class="nav_descricao--link">Projetos</a>
+                </li>
+                <li class="nav_descricao--items"><a href="#contact" class="nav_descricao--link">Contato</a></li>
             </ul>
 
 
@@ -38,8 +40,12 @@
     <main class="">
         <section class="home " id="home">
             <div class="home_me ">
-                <h1 class="home_titulo">Olá,<br> eu sou <b class="home_nome">Cézar</b><br> Front-end Developer</h1>
-                <button type="button" class="home_botao"><a href="#contact" class="button_link-1">Contato</a></button>
+                <p class="home_topo">Olá, eu sou <b class="home_nome">Cézar</b><br></p>
+                <h1 class="home_titulo">Front-end Developer</h1>
+                <p class="about_texto">Fico feliz em vê-lo (a) por aqui. Espero que aproveite o conteúdo e que eu possa
+                    te ajudar de alguma forma.</p>
+                <button type="button" class="home_botao"><a href="#about" class="button_link-1">Conhecer
+                        mais</a></button>
 
                 <ul class="home_marcas">
                     <li class="nav_marcas--items"><a href="https://www.linkedin.com/in/ismaelcezar/" target="_blank"
@@ -47,45 +53,39 @@
                     <li class="nav_marcas--items"><a href="https://www.instagram.com/_ismaelcezar/" target="_blank"
                             class="nav_marcas--links"><i class='bx bxl-instagram'></i></a>
                     </li>
-                    <li class="nav_marcas--items"><a href="https://mail.google.com/mail/u/1/?ogbl#inbox" class="nav_marcas--links"
-                            target="_blank"><i class='bx bx-envelope'></i></i></a>
+                    <li class="nav_marcas--items"><a href="https://mail.google.com/mail/u/1/?ogbl#inbox"
+                            class="nav_marcas--links" target="_blank"><i class='bx bx-envelope'></i></i></a>
                     </li>
                 </ul>
             </div>
 
-            <div class="home-img">
-                <svg class="home__blob" viewBox="0 0 479 467" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-                    <mask id="mask0" mask-type="alpha">
-                        <path d="M9.19024 145.964C34.0253 76.5814 114.865 54.7299 184.111 29.4823C245.804 6.98884 311.86 -14.9503 370.735 14.143C431.207 44.026 467.948 107.508 477.191 174.311C485.897 237.229 454.931 294.377 416.506 344.954C373.74 401.245 326.068 462.801 255.442 466.189C179.416 469.835 111.552 422.137 65.1576 361.805C17.4835 299.81 -17.1617 219.583 9.19024 145.964Z"/>
-                    </mask>
-                    <g mask="url(#mask0)">
-                        <path d="M9.19024 145.964C34.0253 76.5814 114.865 54.7299 184.111 29.4823C245.804 6.98884 311.86 -14.9503 370.735 14.143C431.207 44.026 467.948 107.508 477.191 174.311C485.897 237.229 454.931 294.377 416.506 344.954C373.74 401.245 326.068 462.801 255.442 466.189C179.416 469.835 111.552 422.137 65.1576 361.805C17.4835 299.81 -17.1617 219.583 9.19024 145.964Z"/>
-                        <image class="home__foto" x="50" y="60" href="assets/img/foto-500px.png"/>
-                    </g>
-                </svg>
+            <!-- <div class="home-img"> -->
 
         </section>
         <section class="about section" id="about">
             <h2 class="about_titulo active_tittle">Sobre</h2>
             <div class="about_me">
                 <div class="about_descricao">
-                    <h3 class="about_subtitulo"> Me chamo Cézar,</h3>
-                    <p class="about_texto">sou Desenvolvedor Web em ascensão com habilidades em HTML e CSS, atualmente
-                        aprendendo JavaScript para aprimorar habilidades e expandir conhecimentos. <br><br> Apaixonado
-                        por
-                        tecnologia e em busca de oportunidades para desenvolver soluções criativas e funcionais que
-                        agreguem valor aos projetos. Com apenas 24 anos, estou em constante aprimoramento para me tornar
-                        um profissional completo e contribuir para o sucesso de empresas e projetos desafiadores em um
-                        ambiente de trabalho dinâmico e colaborativo.</p>
+                    <h2 class="about_primario"><i class='bx bx-chevrons-right'></i>DESENVOLVEDOR FRONT-END</h2>
+                    <h3 class="about_subtitulo">Desenvolvedor Web em ascensão com habilidades em HTML, CSS e JavaScript
+                        puro. </h3>
+                    <p class="about_texto">Me chamo Cézar, tenho 24 anos e atualmente estou em busca da minha primeira
+                        oportunidade no mercado como desenvolvedor Jr para desenvolver soluções criativas e funcionais
+                        que
+                        agreguem valor aos projetos.</p>
                     <p class="about_texto">Logo abaixo está o meu currículo com informações mais detalhadas sobre mim.
                     </p>
-                    <a href="assets/arq/Curriculo.pdf" download="Curriculo" target="_blank" class="about_botao">Baixar
-                        CV <i class='bx bx-down-arrow-alt'></i></a>
-                </div>
+                    <div class="botoes_about--container">
+                        <a href="assets/arq/Curriculo.pdf" download="Curriculo" target="_blank"
+                            class="about_botao">Baixar
+                            CV <i class='bx bx-down-arrow-alt'></i></a>
+                        <button type="button" value="ismaelcz4r@outlook.com" aria-label="Copiar email de Cézar"
+                            class="about_botao--email">Copiar e-mail</button>
+                    </div>
 
-                <div class="about_imagem">
-                    <img src="assets/img/me.jpg" alt="minha_foto_pessoal_de_terno" class="about_foto">
                 </div>
+                <img src="assets/img/picwish.png" alt="Minha foto de perfil" class="minhaFoto">
+
             </div>
         </section>
 
@@ -113,7 +113,7 @@
                     <div class="skills_stack">
                         <i class='bx bxl-javascript'></i>
                         <p class="stack">JAVASCRIPT</p>
-                        <p class="stack js-pr">35%</p>
+                        <p class="stack js-pr">60%</p>
                         <div class="stack_linha stack_js"></div>
                     </div>
                     <div class="skills_stack">
@@ -172,12 +172,8 @@
         <p class="rodape_texto"> Ismael Cézar © 2023</p>
     </footer>
     <script src="https://unpkg.com/scrollreveal"></script>
-    <script src="assets/js/main.js"></script>
-    <!-- <script type="module">
-        import Swiper from 'https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.esm.browser.min.js'
-
-        const swiper = new Swiper(...)
-    </script> -->
+    <script src="assets/app/main.js"></script>
+    <script src="assets/app/scroll.js"></script>
 </body>
 
 </html>
