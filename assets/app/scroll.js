@@ -7,27 +7,34 @@ const sr = ScrollReveal({
 })
 
 /*===== SCROLL HOME =====*/
+sr.reveal('.home_topo', {})
 sr.reveal('.home_titulo', {})
 sr.reveal('.home_botao', {})
 sr.reveal('home_marcas', {})
 sr.reveal('.nav_marcas--items', {})
-sr.reveal('.home-img', {})
+sr.reveal('.home-img', {}) 
 
 
 /*===== SCROLL ABOUR =====*/
+sr.reveal('.about_primario', {})
 sr.reveal('.about_titulo', {})
 sr.reveal('.about_subtitulo', {})
 sr.reveal('.about_texto', {})
 sr.reveal('.about_botao', {})
 sr.reveal('.about_foto', {})
 sr.reveal('.ab', {})
+sr.reveal('.minhaFoto', {})
+sr.reveal('.botoes_about--container', {}) 
+sr.reveal('.sobre_conteudo', {})
 
 /*===== SCROLL SKILLS =====*/
 sr.reveal('.skills_titulo', {})
 sr.reveal('.skills_subtitulo', {})
 sr.reveal('.skills_stack', {})
 sr.reveal('.skills_texto', {})
-sr.reveal('.skill_image', {})
+sr.reveal('.skill_image', {}) 
+sr.reveal('.apresentacao_container', {})
+sr.reveal('.metodos_container', {})
 
 /*===== SCROLL PROJECTOS =====*/
 sr.reveal('.pojetos_titulo', {})

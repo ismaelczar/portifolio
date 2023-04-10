@@ -33,22 +33,52 @@
   width: 700px;
 }
 
+.sobre_conteudo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #0f1116;
+  height: 150px;
+  padding: 0 200px;
+  margin-top: 2rem;
+}
+
+.conteudo_container {
+  width: 15vw;
+  text-align: center;
+  margin: 0 16px;
+}
+
+.conteudo_titulo {
+  font-family: var(--font-family);
+  font-size: 4rem;
+  font-weight: 700;
+}
+
+.mais {
+  color: var(--cor-azul);
+}
+
+.conteudo_texto {
+  font-size: 20px;
+  font-family: var(--font-family);
+}
 
 .about_texto {
   font-size: var(--font-text);
   font-family: var(--font-family);
   line-height: 1.6rem;
-  padding-top: 2rem;
+  padding-top: 1rem;
 }
 
 .about_primario {
-  font-size:var(--font-subtitulo);
+  font-size: var(--font-subtitulo);
   font-family: var(--font-family);
   font-size: 1.5rem;
   font-weight: 100;
   color: var(--cor-branco);
   display: flex;
-  
+
 }
 
 .bx-chevrons-right {
@@ -75,13 +105,13 @@
   border-radius: 16px;
 }
 
-.about_botao{
+.about_botao {
   /* margin-top: 2rem; */
   width: 200px;
   padding: 12px 25px;
   border-radius: 12px;
-  background:var(--cor-azul);
-  color:var(--cor-branco);
+  background: var(--cor-azul);
+  color: var(--cor-branco);
   border: none;
   font-size: var(--font-subtitulo);
   font-weight: var(--font-weigth);
@@ -90,27 +120,58 @@
 }
 
 
-.about_botao--email{
+.about_botao--email {
   /* margin-top: 2rem; */
   width: 200px;
   margin-left: 10px;
   padding: 12px 25px;
   border-radius: 12px;
-  background:var(--cor-azul);
-  color:var(--cor-branco);
+  background: var(--cor-azul);
+  color: var(--cor-branco);
   border: none;
   font-size: var(--font-subtitulo);
   font-weight: var(--font-weigth);
   font-family: var(--font-family);
   text-align: center;
 }
+
 .bx-down-arrow-alt {
   color: var(--cor-branco);
   width: 16px;
 
 }
 
-@media screen and (max-width:1200px){
+@media screen and (max-width:1630px) {
+  .minhaFoto {
+    margin-left: 40px;
+  }
+}
+
+@media screen and (max-width:1400px) {
+  .about_me {
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+
+  .minhaFoto {
+    margin: 4rem 0;
+  }
+
+  .botoes_about--container {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  .minhaFoto {
+    width: 500px;
+  }
+
+  .about_primario {
+    text-align: center;
+  }
+}
+
+@media screen and (max-width:1200px) {
   .about_me {
     padding: 0 3rem;
   }
@@ -123,25 +184,67 @@
     margin: 80px 0 0 20px;
 
   }
+
+  .conteudo_texto {
+    font-size: 16px;
+    text-align: initial;
+  }
+
+  .conteudo_titulo {
+    font-size: 2.5rem;
+    text-align: initial;
+  }
+
+  .sobre_conteudo {
+    flex-wrap: wrap;
+    height: auto;
+  }
+
+  .conteudo_container {
+    padding: 8px 0;
+  }
+}
+
+@media screen and (max-width:800px) {
+  .about_primario, .bx-chevrons-right {
+    /* padding-left: 50px; */
+    justify-content: center;
+  }
+
+  .about_subtitulo {
+    font-size: 22px;
+    text-align: center;
+  }
+
+  .about_texto {
+    font-size: 16px;
+    text-align: center;
+  }
 }
 
 @media screen and (max-width:698px) {
   .about_me {
     flex-direction: column-reverse;
     align-items: center;
+    width: auto;
   }
 
   .about_texto {
-    padding: 16px 20px 0 20px;
+    padding: 0 30px;
   }
 
   .about_descricao {
     text-align: center;
-    align-items: center;
+    width: 500px;
+    
   }
 
   .about_subtitulo {
     margin-top: 2rem;
+  }
+
+  .botoes_about--container {
+    width: 500px;
   }
 }
 
@@ -149,19 +252,33 @@
   .about_texto {
     padding: 16px 60px 0 60px;
   }
+
+  .minhaFoto {
+    display: none;
+  }
+
+  .conteudo_container {
+    width: 400px;
+  }
+
+  .conteudo_titulo, .conteudo_texto {
+    text-align: center;
+  }
 }
 
 @media screen and (max-width:550px) {
   .about_descricao {
     width: 350px;
   }
-  
+
   .about_texto {
     font-size: 20px;
-    line-height: 20px;
+    /* line-height: 20px; */
+    padding: 0;
+
 
   }
-  
+
   .about_foto {
     width: 350px;
     margin: 0;
@@ -169,5 +286,20 @@
 
   .about_imagem {
     width: 340px;
+  }
+
+  .botoes_about--container {
+    width: auto;
+  }
+
+  .sobre_conteudo {
+    padding: 0px 20px;
+    text-align: center;
+    justify-content: center;
+  }
+
+  .conteudo_container {
+    justify-content: center;
+    align-items: center;
   }
 }

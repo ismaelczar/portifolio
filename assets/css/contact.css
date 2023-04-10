@@ -2,6 +2,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding: 0 0 2rem 0;
 }
 
 .contato_container {
@@ -38,12 +39,12 @@
 .contato_b > i {
   width: 24px;
   padding-left: 8px;
-  color: var(--cor-preto);
+  color: var(--cor-azul);
   
 }
 
 .contato_b > a {
-  color: var(--cor-preto);
+  color: var(--cor-branco);
 }
 
 
@@ -52,8 +53,8 @@
   width: 200px;
   padding: 12px 0px;
   border-radius: 12px;
-  background:var(--cor-azul);
-  color:var(--cor-preto);
+  background:#0f1116;
+  color:var(--cor-azul);
   border: 0.1rem solid var(--cor-azul);
   font-size: var(--font-subtitulo);
   font-weight: var(--font-weigth);
@@ -63,17 +64,11 @@
   align-items: center;
 }
 
-.contato_botao:hover {
-  background-color:#00b4c1d5;
-  transition: 1s;
-  color: var(--cor-branco);
-}
-
 .contato_botao-link {
-  margin-top: 12rem;
+  margin-top: 6rem;
   width: 200px;
-  border-radius: 12px;
-  background:var(--cor-azul);
+  border-radius: 5px;
+  background:#0f1116;
   color:var(--cor-azul);
   font-size: var(--font-subtitulo);
   font-weight: var(--font-weigth);
@@ -81,6 +76,7 @@
   text-align: center;
   box-shadow: 0 3px 3px rgba(14, 36, 49, 0.15);
   align-items: center;
+  border: none;
 }
 
 
@@ -89,7 +85,7 @@
 }
 
 .link_up {
-  color: var(--cor-branco);
+  color: var(--cor-azul);
   font-size: var(--font-subtitulo);
   font-family: var(--font-family);  
 }
