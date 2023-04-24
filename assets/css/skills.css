@@ -298,6 +298,7 @@
 @media screen and (max-width:420px) {
   .skill_image {
     width: 330px;
+    padding-bottom: 10px;
   }
 
   .skills {

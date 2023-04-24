@@ -108,3 +108,13 @@ ul {
     display: none;
   }
 }
+
+@media screen and (max-width: 600px) {
+  .navegacao_titulo--ponto {
+    padding: 0;
+  }
+
+  .navegacao_titulo {
+    width: auto;
+  }
+}
