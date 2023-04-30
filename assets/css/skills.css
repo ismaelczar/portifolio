@@ -61,10 +61,12 @@
 .bxl-css3,
 .bxl-javascript,
 .bxl-git,
-.bxl-github {
+.bxl-github,
+.bxl-react {
   font-size: var(--font-titulo);
   color: var(--cor-azul);
   width: 80px;
+  padding: 0 4px;
 }
 
 .stack {
@@ -98,6 +100,10 @@
   width: 52%;
 }
 
+.react-pr {
+  padding-right: 450px;
+}
+
 
 .stack_html {
   width: 85%;
@@ -123,6 +129,10 @@
 
 .skill_image {
   margin-left: 20px;
+}
+
+.stack_react {
+  width: 20%;
 }
 
 .metodos_container {
