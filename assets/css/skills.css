@@ -62,7 +62,8 @@
 .bxl-javascript,
 .bxl-git,
 .bxl-github,
-.bxl-react {
+.bxl-react,
+.bxl-typescript {
   font-size: var(--font-titulo);
   color: var(--cor-azul);
   width: 80px;
@@ -88,22 +89,12 @@
   padding-right:0;
 }
 
-.git-pr {
-  padding-left: 7.5rem;
-}
-
-.github-pr {
-  padding-right: 2rem;
-}
-
-.stack_github {
-  width: 52%;
-}
-
 .react-pr {
-  padding-right: 450px;
+  padding-right: 200px;
 }
-
+.typescript {
+  padding-right: 100px;
+}
 
 .stack_html {
   width: 85%;
@@ -117,9 +108,6 @@
   width: 60%;
 }
 
-.stack_git {
-  width: 69%;
-}
 
 .skill_image {
   width: 500px;
@@ -132,7 +120,11 @@
 }
 
 .stack_react {
-  width: 20%;
+  width: 45%;
+}
+
+.stack_typescript {
+  width: 50%;
 }
 
 .metodos_container {
